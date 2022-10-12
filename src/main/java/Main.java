@@ -16,7 +16,9 @@ public class Main {
 
         IOSTheme themeIOS = new IOSTheme();
         IOSWallpaper wallpaperIOS = new IOSWallpaper();
-
+        
+        LinuxTheme themeLinux = new LinuxTheme();
+        LinuxWallpaper wallpaperLinux = new LinuxWallpaper();
         
         themeAndroid.print();
         wallpaperAndroid.print();
@@ -24,6 +26,7 @@ public class Main {
         themeIOS.print();
         wallpaperIOS.print();
         
-        
+        themeLinux.print();
+        wallpaperLinux.print();   
     }
 }
