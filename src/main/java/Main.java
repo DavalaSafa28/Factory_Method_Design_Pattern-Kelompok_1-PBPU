@@ -11,8 +11,10 @@
  */
 public class Main {
     public static void main(String []args){
-        WinButton winbutton1 = new WinButton();
+        AndroidTheme Theme = new AndroidTheme();
+        AndroidWallpaper Wallpaper = new AndroidWallpaper();
         
-        winbutton1.print();
+        Theme.print();
+        Wallpaper.print();
     }
 }
