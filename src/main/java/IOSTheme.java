@@ -1,15 +1,12 @@
 public class IOSTheme implements Theme {
 
-    @Override
     public void print() {
-        // TODO Auto-generated method stub
-        
+        System.out.println("Ini Tampilan Tema IOS");
+        onClick();
     }
-
-    @Override
+    
     public void onClick() {
-        // TODO Auto-generated method stub
-        
+        System.out.println("Tema IOS");
     }
     
 }
