@@ -11,10 +11,19 @@
  */
 public class Main {
     public static void main(String []args){
-        AndroidTheme Theme = new AndroidTheme();
-        AndroidWallpaper Wallpaper = new AndroidWallpaper();
+        AndroidTheme themeAndroid = new AndroidTheme();
+        AndroidWallpaper wallpaperAndroid = new AndroidWallpaper();
+
+        IOSTheme themeIOS = new IOSTheme();
+        IOSWallpaper wallpaperIOS = new IOSWallpaper();
+
         
-        Theme.print();
-        Wallpaper.print();
+        themeAndroid.print();
+        wallpaperAndroid.print();
+
+        themeIOS.print();
+        wallpaperIOS.print();
+        
+        
     }
 }
